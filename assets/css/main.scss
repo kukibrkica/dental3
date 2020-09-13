@@ -448,6 +448,16 @@
   margin-left: 73px;
 }
 
+figure a img{
+  width: 40%;
+}
+
+@media (max-width: 930px){
+  figure a img{
+    width: 30%;
+  }
+}
+
 .page__hero--overlay{
   height: 30em;
 }
