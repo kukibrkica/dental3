@@ -448,14 +448,8 @@
   margin-left: 73px;
 }
 
-figure a img{
-  width: 40%;
-}
-
-@media (max-width: 930px){
-  figure a img{
-    width: 30%;
-  }
+.site-logo a img {
+    max-height: 4rem;
 }
 
 .page__hero--overlay{
