@@ -452,6 +452,10 @@
   height: 30em;
 }
 
+a:visited {
+    color: #f9f9f9;
+}
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
