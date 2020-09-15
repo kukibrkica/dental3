@@ -124,15 +124,6 @@ body {
     }
   }
 
-  a:not(.btn) {
-    &:hover {
-      text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
-    }
-  }
 
   dt {
     margin-top: 1em;
@@ -299,7 +290,7 @@ body {
   text-transform: uppercase;
 }
 
-.page__meta-sep::before {
+.post__meta-sep::before {
   content: "\2022";
   padding-left: 0.5em;
   padding-right: 0.5em;

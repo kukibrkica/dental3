@@ -413,20 +413,6 @@
     ul {
       margin-bottom: 1em;
     }
-
-    a {
-      display: block;
-      padding: 0.25em 0;
-
-      @include breakpoint($large) {
-        padding-top: 0.125em;
-        padding-bottom: 0.125em;
-      }
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
   }
 }
 
