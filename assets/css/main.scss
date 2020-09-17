@@ -458,5 +458,21 @@
   color: transparent;
 }
 
+@media only screen and (max-width: 40em){
+  .page__hero--overlay{
+  height: 20em;
+}
+}
+
+@media only screen and (max-width: 20em){
+.page__content p, .page__content li, .page__content dl {
+    font-size: 0.8em;
+}
+
+.modGallery ul.gallery.seperated li {
+    padding: 0px;
+}
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
